@@ -57,7 +57,10 @@
     text-align: center;
     padding: 123px;
 }
-.but{font-size: smaller;}
+
+.but {
+    font-size: smaller;
+}
 
 
 .box {
@@ -68,7 +71,8 @@
     padding: 33px;
     text-align: left;
 }
-.watch00{
+
+.watch00 {
     display: flex;
     gap: 15px;
 }
@@ -79,7 +83,8 @@
     border: 1px solid rgb(173, 108, 23);
     line-height: 35px;
 }
-.bol01{
+
+.bol01 {
     font-size: xx-large;
 }
 
@@ -91,7 +96,11 @@
     text-align: lefts;
     padding: 33px;
 }
-.bol{font-size: x-large;}
+
+.bol {
+    font-size: x-large;
+}
+
 .image {
     height: 100px;
     width: 100px;
@@ -155,14 +164,14 @@
 
 .box002 {
 
-    height: 668px;
+    height: 782px;
     width: 100%;
     border: 1px solid red;
 
 }
 
 .box0202 {
-    height: 330px;
+    height: 390px;
     width: 100%;
     border: 1px solid red;
     display: flex;
@@ -171,7 +180,7 @@
 }
 
 .box0201 {
-    height: 330px;
+    height: 390px;
     width: 100%;
     border: 1px solid red;
     display: flex;
@@ -179,20 +188,34 @@
     gap: 35px;
 }
 
+.para03 {
+    text-align: center;
+    padding: 65px;
+    background-color: #f4f6ff !important;
+
+}
+
+.section03 {
+    height: 390px;
+    width: 100%;
+    border: 1px solid red;
+
+}
+
 .box0203 {
-    height: 250px;
+    height: 300px;
     width: 100%;
     border: 1px solid red;
     padding: 40px;
     text-align: center;
-
+    line-height: 30px;
 }
 
 
 
 .sec01 {
     height: 330px;
-    width: 100%;
+    width: 25%;
     border: 1px solid red;
     display: flex;
 
@@ -202,9 +225,7 @@
     height: 330px;
     width: 25%;
     border: 1px solid red;
-    display: flex;
-    background-image: 100%;
-    position: relative;
+   background-image: url(../coloulib/image/gallery-1.jpg);
 }
 
 .sec02 {
@@ -213,4 +234,10 @@
     border: 1px solid red;
     background-size: 100%;
     background-image: url(../coloulib/image/bg_3.jpg);
+}
+
+.section04 {
+    text-align: center;
+    padding: 65px;
+    padding-top: 100px;
 }
